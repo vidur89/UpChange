@@ -118,7 +118,9 @@ footer {
     .container {
         padding: 0 10px;
     }
-
+.logo-img {
+    width: 500px;
+}
     .logo {
         font-size: 28px;
     }
