@@ -112,3 +112,36 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+
+    .tagline {
+        font-size: 14px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .hero {
+        padding: 40px 15px;
+    }
+
+    /* Adjust form for smaller screens */
+    .contact form {
+        padding: 0 10px;
+    }
+}
